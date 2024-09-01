@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanish Potfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- My header  -->
+    <header class="header-of-page">
+        <div class="List-of-pages" style="display: flex;list-style:none; gap: 10px;">
+            <li> <a href="#my-details">Home</a></li>
+            <li><a href="#contact-form">Contact Me</a></li>
+        </div>
+        <hr>
+    </header>
+
+    <!-- My details  -->
+
+    <section class="my-details">
+        <div>
+            <h1>Hi My name is Sk Tanish Parvez</h1>
+            <p>
+                <Strong>
+                    <h3>
+                        Gaming prism private limited <br>
+                        Kolkata - India<br>
+                        2023 - 2024 <br></h3>
+                </Strong>
+            <h5 style="color:rgb(255, 0, 255);">
+                As an SEO expert at my previous company, I made great<br>
+                progress search engine rankings and increased organic<br>
+                traffic through strategic keyword optimization, quality<br>
+                content creation, and effective link-building. The<br>
+                company's revenue growth and internet visibility have<br>
+                greatly improved as an outcome of my efforts.<br>
+            </h5>
+            </p>
+        </div>
+    </section>
+
+    <!-- My Photo -->
+    <section>
+        <div class="My-Official-Photo" style="padding-bottom: 10px;">
+            <img src="./My phtoto.jpeg" alt="Tanish Official Photo"
+            width="200px"
+            height="auto">
+        </div>
+    </section>
+    <!-- My Social Media Account -->
+    <section class="Social-media-account" style="display: flex; gap: 20px;">
+        <!-- GitHub Profile with Icon -->
+<a href="https://github.com/tanishparvez" target="_blank">
+    <img src="./github icon.png" alt="GitHub" style="width: 30px; height: 30px;gap: 20px;">
+</a>
+
+<!-- Facebook Profile with Icon -->
+<a href="https://www.facebook.com/sk.tanishparvez" target="_blank">
+    <img src="./facebook.jpeg" alt="Facebook" style="width: 30px; height: 30px;gap: 20px;">
+</a>
+
+<!-- Instagram Profile with Icon -->
+<a href="https://www.instagram.com/tanishparvez/" target="_blank">
+    <img src="./Instagram logo.jpeg" alt="Instagram" style="width: 30px; height: 30px;gap: 20px;">
+</a>
+
+<!-- LinkedIn Profile with Icon -->
+<a href="https://www.linkedin.com/in/sk-tanish-parvez-492502304/" target="_blank">
+    <img src="./linkdin icon.png" alt="LinkedIn" style="width: 30px; height: 30px;gap: 20px;">
+</a>
+
+    </section>
+
+<!-- My footer -->
+<section id="contact-form">
+    <h2>Contact Me</h2>
+    <form action="submit_form.php" method="POST">
+        <!-- Name Field -->
+        <div class="form-row">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+
+        <!-- Email Field -->
+        <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+
+        <!-- Company Name Field -->
+        <div class="form-row">
+            <label for="company">Company Name:</label>
+            <input type="text" id="company" name="company" placeholder="Your Company Name" required>
+        </div>
+
+        <!-- Your Post Field -->
+        <div class="form-row">
+            <label for="your-post">Your Post:</label>
+            <input type="text" id="your-post" name="your-post" placeholder="Your Current Position" required>
+        </div>
+
+        <!-- Post You're Searching For Field -->
+        <div class="form-row">
+            <label for="desired-post">Post You're Searching For:</label>
+            <input type="text" id="desired-post" name="desired-post" placeholder="Desired Position" required>
+        </div>
+
+        <!-- Message Field -->
+        <div class="form-row">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Send Message">
+    </form>
+</section>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+html {
+    scroll-behavior: smooth;
+}
+/* Style for the header */
+.header-of-page {
+    padding: 20px;
+    background-color: #333; /* Dark background color */
+    color: white;           /* White text color */
+    text-align: center;     /* Center-align text and content */
+}
+
+/* Style for the list of pages */
+.header-of-page .List-of-pages {
+    display: flex;
+    justify-content: center; /* Center the list items horizontally */
+    padding: 0;
+    margin: 0;
+    list-style: none;        /* Remove default list styling */
+}
+
+/* Style for each list item */
+.header-of-page .List-of-pages li {
+    margin: 0 15px;          /* Add space between list items */
+}
+
+/* Style for the links */
+.header-of-page .List-of-pages a {
+    color: white;            /* White text color */
+    text-decoration: none;   /* Remove underline from links */
+    font-size: 18px;         /* Adjust font size */
+    transition: color 0.3s;  /* Smooth transition for color change */
+}
+
+/* Hover effect for the links */
+.header-of-page .List-of-pages a:hover {
+    color: #ffcc00;          /* Change color on hover */
+}
+
+/* Style for the horizontal line */
+.header-of-page hr {
+    border: 0;
+    border-top: 1px solid #fff; /* White horizontal line */
+    margin: 10px auto;          /* Center the line and add space around it */
+    width: 80%;                 /* Adjust width to fit the header */
+}
+
+
+/* Style for the section containing personal details */
+.my-details {
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background color for the section */
+    border-radius: 8px;        /* Rounded corners for the section */
+    max-width: 800px;          /* Limit the width of the section */
+    margin: auto;              /* Center the section horizontally */
+}
+
+/* Style for the main heading (name) */
+.my-details h1 {
+    font-size: 28px;
+    color: #333;               /* Dark text color for better readability */
+    text-align: center;        /* Center-align the main heading */
+    margin-bottom: 15px;       /* Space below the main heading */
+}
+
+/* Style for the company information */
+.my-details h3 {
+    font-size: 20px;
+    color: #444;               /* Slightly lighter gray for the company details */
+    text-align: center;        /* Center-align the company information */
+    margin: 0;                 /* Remove default margin */
+}
+
+/* Style for the job description */
+.my-details h5 {
+    font-size: 16px;
+    color: rgb(255, 0, 255);   /* Purple color for job description */
+    line-height: 1.6;          /* Improved line height for readability */
+    text-align: center;        /* Center-align the job description */
+    margin-top: 10px;          /* Space above the job description */
+}
+
+/* Remove extra spacing around the p tag */
+.my-details p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure the strong tag doesn't have extra spacing */
+.my-details strong {
+    font-weight: bold;         /* Bold text */
+}
+
+/* Style for the Official Photo section */
+.My-Official-Photo {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Style for the Social Media Account section */
+.Social-media-account {
+    display: flex;
+    justify-content: center; /* Centers the icons horizontally */
+    align-items: center;     /* Aligns the icons vertically */
+    gap: 20px;               /* Adds space between the icons */
+    padding: 10px 0;         /* Adds padding above and below the icons */
+}
+
+/* Style for the Social Media Icons */
+.Social-media-account a img {
+    width: 40px;             /* Sets the size of the icons */
+    height: auto;
+    transition: transform 0.3s ease; /* Adds a smooth transition for the hover effect */
+}
+
+/* Hover Effect for Social Media Icons */
+.Social-media-account a img:hover {
+    transform: scale(1.2);   /* Slightly enlarges the icon on hover */
+}
+
+/* Style for the form container */
+.footer {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style for the form heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style for each form row */
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Style for the labels */
+label {
+    width: 150px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Style for the text input and email fields */
+input[type="text"], input[type="email"], textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Style for the textarea (message box) */
+textarea {
+    height: 100px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
